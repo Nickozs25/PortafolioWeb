@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="profile-pic">
+            <img src="tu-foto.jpg" alt="Mi Foto">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Mis Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-mi">
+        <h1>Sobre Mí</h1>
+        <p>Aquí puedes escribir una breve descripción sobre ti.</p>
+    </section>
+
+    <section id="proyectos">
+        <h1>Mis Proyectos</h1>
+        <div class="gallery">
+            <div class="project">
+                <img src="proyecto1.jpg" alt="Proyecto 1">
+                <a href="https://github.com/tuusuario/proyecto1">Ver en GitHub</a>
+            </div>
+            <div class="project">
+                <img src="proyecto2.jpg" alt="Proyecto 2">
+                <a href="https://github.com/tuusuario/proyecto2">Ver en GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h1>Contacto</h1>
+        <p>Puedes contactarme en: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+    </section>
+</body>
+</html>
